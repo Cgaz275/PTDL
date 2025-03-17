@@ -1,0 +1,39 @@
+# 🏗 Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔥 Môi trường ảo (nếu dùng venv)
+venv/
+.env
+*.venv
+Pipfile
+Pipfile.lock
+
+# 📦 Thư viện cài đặt từ pip
+*.egg-info/
+dist/
+build/
+
+# 📝 File config và database tạm thời
+*.sqlite3
+*.db
+
+# 🚀 Google Colab và Notebook
+.ipynb_checkpoints/
+
+# 📁 Thư mục cache
+.cache/
+__pypackages__/
+*.log
+
+# 🔑 File chứa thông tin nhạy cảm
+.env
+*.key
+*.pem
+config.json
+secrets.json
+
+# 🔄 Hệ điều hành
+.DS_Store
+Thumbs.db
